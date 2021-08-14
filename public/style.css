@@ -1,3 +1,5 @@
+                        
+                        @import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
                         .navbar-brand {
                             font-size: 30px;
                             color: white !important;
@@ -37,10 +39,12 @@
 
                         .course h1 {
                             font-size: 35px;
-                            padding-bottom:9px;
+                            padding-top: 8px;
+                            padding-bottom: 8px;
                             text-align: center;
                             background-color:rgb(33, 83, 52);
                             color:white;
+                            font-family: 'Signika', sans-serif !important;
                         }
                         .course a {
                             font-size: 20px;
@@ -49,6 +53,7 @@
                             text-decoration: none;
                             color:rgb(33, 83, 52);
                             padding-top: 9px;
+                            
                         }
                         .course a:hover {
                             text-decoration: underline;
