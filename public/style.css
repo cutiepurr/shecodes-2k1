@@ -10,6 +10,11 @@
                             font-family: font-family 'Spectral', serif;
                         }
                         
+                        .nav-link:hover {
+                            border-bottom: solid;
+                            border-width: 3px;
+                        }
+                        
                         .navbar li a:hover {
                             background-color: rgb(33, 83, 52, 0.7) !important;
                         }
@@ -69,4 +74,25 @@
                         
                         .card:hover {
                             border: salmon;
+                        }
+                        
+                        .form-control {
+                            width: 60%;
+                            height: auto;
+                            margin: auto 20%;
+                        }
+                        
+                        #login,
+                        #register {
+                            text-align: center!important;
+                        }
+                        
+                        .login-box {
+                            width: 40%;
+                            margin: 100px 30%;
+                            border: solid 1px gray;
+                        }
+                        
+                        .login-box:hover {
+                            border: solid 1px gray;
                         }
