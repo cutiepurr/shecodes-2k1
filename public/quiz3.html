@@ -27,9 +27,6 @@
                         <a class="nav-link" href="#">GIỚI THIỆU</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="lesson.html">BÀI HỌC</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">KẾT NỐI</a>
                     </li>
                     <li class="nav-item">
@@ -77,12 +74,23 @@
       <div class="fullCard">
         <div class="cardContent">
           <div class="cardText">
-            <h2>QUIZ 3 - Câu hỏi 1:</h2>
-            <p>"Hãy điền CHỮ CÁI bên dưới vào đây bạn nhé!"</p>
+            <h5>QUIZ 3 - Câu hỏi 1: Hãy điền CHỮ CÁI bên dưới vào đây bạn nhé!</h5>
           </div>
          <form>
-    <input type="text" placeholder="Điền đáp án vào đây" required> 
-  <button type="submit">Submit</button>
+    <input type="text" placeholder="Điền đáp án vào đây" required class='form-control'> 
+    <button type="button" class='btn btn-primary' data-bs-toggle="modal" data-bs-target="#exampleModal">Nộp
+    </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class='text-black'>Đáp án đúng: V</p>
+          </div>
+        </div>
+      </div>
 </form>
       
         </div>
@@ -104,8 +112,10 @@
           background: url("https://cdn.vox-cdn.com/thumbor/1fQovHt9JTUAIW83jUZsYutsrDo=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/67637842/Switch_ACNH_ND0220_screen_14.0.jpg")
         }
         #grr {
-          width: 500px;
-          height: 500px;
+          max-width: 200px;
+        max-height: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -113,7 +123,7 @@
           border: 3px solid orange;
           padding: 10px;
         }
-        h2 { 
+        h5 { 
           color: white;
         }
         p {
