@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
    <title>Shecodes Hackathon 2021 </title>
@@ -55,19 +58,26 @@
 
         </div>
     </nav>
-    
-    <div class=" container-md padding mt-5">
-        <div class="row welcome text-center ">
-            <div class="col-12 ">
-                <h2 class="display-4 "><b>GIỚI THIỆU</b></h2>
+    <!--Carousel -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>		
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/slide1.png">
             </div>
-            <div class="col-12 ">
-                <p class="intro ">HANDSPEAKING là một trang web được lập ra nhằm tạo cơ hội cho mọi người học tập ngôn ngữ kí hiệu để giao tiếp với cộng đồng người khiếm thị và 
-                    là nơi để người khiếm thị có cơ hội chia sẻ về bản thân cũng như hòa nhập với xã hội. Trang web cung cấp nhiều khóa học khác nhau từ căn bản đến nâng cao.</p>
+            <div class="carousel-item">
+                <img src="./images/slide2.png">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/slide3.png">
             </div>
         </div>
     </div>
-    <hr>
+
     <div class="container-fluid padding">
         <div class="row padding course">
         <h1 class=" col-md-3 display-4 "><b> Các khóa học </b></h1>
@@ -136,7 +146,7 @@
         <div class="row padding ">
             <div class="col-md-4 ">
                 <div class="card ">
-                    <img class="card-img-top " src="./images/2.png ">
+                    <img class="card-img-top " src="./images/Quiz1.png ">
                     <div class="card-body ">
                         <h4 class="card-title ">Quiz 1</h4>
                         <p class="card-text ">Nhận biết các ngôn ngữ kí hiệu cơ bản qua video</p>
@@ -147,7 +157,7 @@
             </div>
             <div class="col-md-4 ">
                 <div class="card ">
-                    <img class="card-img-top " src="./images/1.png ">
+                    <img class="card-img-top " src="./images/Quiz2.png ">
                     <div class="card-body ">
                         <h4 class="card-title ">
                             Quiz 2
@@ -159,7 +169,7 @@
             </div>
             <div class="col-md-4 ">
                 <div class="card ">
-                    <img class="card-img-top " src="./images/2.png ">
+                    <img class="card-img-top " src="./images/Quiz3.png ">
                     <div class="card-body ">
                         <h4 class="card-title ">
                             Quiz 3
@@ -174,9 +184,9 @@
 
     <!-- ghi là nav nhưng lại là footer  -->
     <nav class="navbar">
-        <div class="container-md p-5">
-            <ul class='navbar-nav'>
-                <li><a class="navbar-brand" href="#">HANDSPEAKING</a></li>
+        <div class="container-md p-7">
+            <ul class='navbar-nav text-center'>
+                <li><a class="navbar-brand" href="#"><b>HANDSPEAKING</b></a></li>
                 <li class='text-white small'>Số XXX, Đường XXX, XX</li>
                 <li class='text-white small'>Hotline: 012345678</li>
                 <li class='text-white small'>info@example.com</li>
