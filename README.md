@@ -1,5 +1,5 @@
 # SheCodes Virtual Hackathon 2021 - Team ...
-
+https://hand-speaking.web.app/
 ## Members:
 * Phan Tiến Minh Thùy
 * Thịnh Trần Khánh Linh
@@ -7,5 +7,5 @@
 * Phạm Trần Xuân Anh
 * Cao Thị Minh Phương
 
-## Guide:
-Ê:))) Các file html và js để trong folder public nha:)), về sau cả css và img cũng z
+## Công nghệ:
+firebase (SaaS - backend-as-a-service)
