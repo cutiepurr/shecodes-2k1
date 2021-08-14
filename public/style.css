@@ -39,9 +39,11 @@
                             max-height: 700px;
                             padding:5%;
                         }
-                        .carousel-indicators {
-                            color: white;
-                        }
+                        .carousel-control-prev, .carousel-control-next{
+                            background-color: rgb(33, 83, 52, 0.2);
+                            width:50px;
+                            max-height: 700px;
+                            margin:5%;}
                         body {
                             background-color: rgb(229, 241, 234);
                         }
