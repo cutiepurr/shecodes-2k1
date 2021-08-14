@@ -18,16 +18,13 @@ firebase.auth().onAuthStateChanged(function(u) {
     }
     console.log(u)
 })
-
+var manage = document.querySelector('#manage')
+manage.style.display = 'none'
 db.collection("users").onSnapshot(querySnapshot => {
     querySnapshot.forEach(doc => {
-        console.log(doc.data())
         data = doc.data()
-        var manage = document.querySelector('#manage')
         if (user && user.email==data.email && data.account=='admin') {
             manage.style.display = 'block'
-        } else {
-            manage.style.display = 'none'
         }
     })
 })
