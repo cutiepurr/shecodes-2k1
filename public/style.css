@@ -33,10 +33,24 @@
                             background-color: rgb(229, 241, 234);
                         }
                         
-                        .display-4 {
-                            color: rgb(33, 83, 52);
-                            font-size: 60px;
-                            padding-top: 20px;
+
+                        .course h1 {
+                            font-size: 35px;
+                            padding-bottom:9px;
+                            text-align: center;
+                            background-color:rgb(33, 83, 52);
+                            color:white;
+                        }
+                        .course a {
+                            font-size: 20px;
+                            text-align: right;
+                            padding-right: 30px;
+                            text-decoration: none;
+                            color:rgb(33, 83, 52);
+                            padding-top: 9px;
+                        }
+                        .course a:hover {
+                            text-decoration: underline;
                         }
                         
                         .intro {
@@ -58,10 +72,6 @@
                             margin-bottom: 2rem;
                             margin-left: auto;
                             margin-right: auto;
-                        }
-                        
-                        .course {
-                            padding-bottom: 15px;
                         }
                         
                         .card {
