@@ -31,19 +31,11 @@
                             margin: 10px;
                             font-size: 12px;
                         }
-                        /* .carousel {
-                            margin-bottom: 20px;
-                        }
-                        .carousel-inner img {
-                            width: 100%;
-                            max-height: 700px;
-                            padding:5%;
-                        }
+                      
                         .carousel-control-prev, .carousel-control-next{
                             background-color: rgb(33, 83, 52, 0.3);
                             width:50px;
-                            max-height: 700px;
-                            margin:5%;} */
+                            margin: 140px;} 
                         body {
                             background-color: rgb(229, 241, 234);
                         }
